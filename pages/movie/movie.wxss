@@ -1,0 +1,40 @@
+@import "../../app.wxss"
+.top-container
+{
+    display:-moz-box; 
+	display:-webkit-box; 
+	display:box;
+    padding: 20px;
+    border-bottom:1px solid #eeeeee;
+    position: relative;
+    z-index: 1;
+}
+.film-image
+{
+    -moz-box-flex:1.0; 
+    -webkit-box-flex:1.0; 
+    box-flex:1.0;
+
+}
+.header-img
+{
+    height: 100px;
+    width: 70px;
+}
+.number
+{
+    color: #FFCC66;
+    margin-right: 2px;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+}
+.bottom-container
+{
+    padding: 10px;
+    line-height: 20px;
+    text-justify: newspaper;
+    position: relative;
+    z-index: 1;
+}

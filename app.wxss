@@ -1,0 +1,102 @@
+ /**app.wxss**/
+ .container{
+    height: 100%;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    position: relative;
+}
+.sub-container
+{
+    display:-moz-box; 
+	display:-webkit-box; 
+	display:box;
+    padding: 10px 20px;
+    border-bottom:1px solid #eeeeee;
+    word-break: break-all;
+}
+.film-image
+{
+    -moz-box-flex:1.0; 
+    -webkit-box-flex:1.0; 
+    box-flex:1.0;
+
+}
+.header-img
+{
+    height: 100px;
+    width: 70px;
+}
+.film-info
+{
+    line-height: 20px;
+     -moz-box-flex:2.0; 
+    -webkit-box-flex:2.0; 
+    box-flex:2.0;
+    width: 150px;
+    font-size: 12px;
+}
+.person
+{
+    margin-right: 2px;
+}
+.film-title{
+    font-weight: bold;
+    font-size: 14px;
+}
+.tag
+{ 
+    background-color: #eeeeee;
+    padding: 2px;
+    text-align: center;
+    margin-right:5px;
+}
+.film-year
+{
+    display: inline-block;
+    background-color: #6699CC;
+    width: 25px;
+    height: 12px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 12px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.film-rating
+{
+    -moz-box-flex:1.0; 
+    -webkit-box-flex:1.0; 
+    box-flex:1.0;
+}
+.rating{
+    display: block;
+    background-color: #FFCC66;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+.loading-wrap
+ {
+     text-align: center;
+     width: 150px;
+     margin: 200px auto;
+ }
+ .loading-text
+ {
+     text-align: center;
+     display: block;
+     font-size: 16px;
+     font-weight: bold;
+     color: #6699CC;
+ }
+ .loading-pic
+ {
+     display: block;
+     height: 30px;
+     width: 30px;
+     padding: 20px 65px;
+ }

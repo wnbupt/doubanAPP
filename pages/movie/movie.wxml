@@ -1,0 +1,39 @@
+
+<!--pages/movie/movie.wxml-->
+<view class="container">
+  <view class="back-container" style="background-image: url('{{list.images.medium}}');"></view>
+  <view class="top-container">
+    <view class="film-image">
+      <image src="{{list.images.small}}" mode="scaleToFill" class="header-img"></image>
+    </view>
+    <view class="film-info">
+      <view>
+        <text class="film-title">{{list.title}}</text>
+        <text class="film-year">{{list.year}}</text>
+      </view>
+      <view class="directors">
+        <text class="label">导演：</text>
+        <text class="person">{{list.directors[0].name}}</text>
+      </view>
+      <view class="casts">
+        <text class="label">主演：</text>
+        <block wx:for="{{list.casts}}">
+          <text class="person">{{item.name}}</text>
+        </block>
+      </view>
+      <view class="populer">
+        <text class="label">想看</text>
+        <text class="number">{{list.reviews_count}}</text>
+        <text class="label">已看</text>
+        <text class="number">{{list.wish_count}}</text>
+      </view>
+    </view>
+    <view class="film-rating">
+      <text class="rating">{{list.rating.average}}</text>
+    </view>
+  </view>
+  <view class="bottom-container">
+    <text class="label">剧情简介：</text>
+    <text>{{list.summary}}</text>
+  </view>
+</view>

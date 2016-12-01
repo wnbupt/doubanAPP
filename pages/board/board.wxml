@@ -1,0 +1,14 @@
+<view class="container">
+    <view class="sub-container" bindtap="getList" data-id="coming_soon">
+        <text>即将上映</text>
+    </view>
+    <view class="sub-container" bindtap="getList" data-id="top250">
+        <text>Top250</text>
+    </view>
+    <view class="sub-container" bindtap="getList" data-id="us_box">
+        <text>口碑榜</text>
+    </view>
+    <view class="sub-container" bindtap="getList" data-id="weekly">
+        <text>北美票房榜</text>
+    </view>
+</view>

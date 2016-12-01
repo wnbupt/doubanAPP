@@ -1,0 +1,42 @@
+<!--pages/list/list.wxml-->
+<block wx:if="{{showLoading}}">
+  <view class="loading-wrap">
+    <image class="loading-pic" src="../../images/loading.gif"></image>
+    <text class="loading-text">玩命加载中......</text>
+  </view>
+</block>
+<block wx:else>
+<view class="container">
+<block  wx:for="{{list}}">
+    <view class="sub-container" bindtap="getDetail" data-id="{{item.id}}">
+      <view class="film-image">
+        <image src="{{item.images.small}}" mode="scaleToFill" class="header-img"></image>
+      </view>
+      <view class="film-info">
+        <view>
+          <text class="film-title">{{item.title}}</text>
+          <text class="film-year">{{item.year}}</text>
+        </view>
+        <view class="directors">
+          <text class="label">导演：</text>
+          <text class="person">{{item.directors[0].name}}</text>
+        </view>
+        <view class="casts">
+          <text class="label">主演：</text>
+          <block wx:for-items="{{item.casts}}" wx:for-item="cast">
+              <text class="person">{{cast.name}}</text>
+          </block>
+        </view>
+        <view class="tags">
+          <block wx:for-items="{{item.genres}}" wx:for-item="tag">
+              <text class="tag">{{tag}}</text>
+          </block>
+        </view>
+      </view>
+      <view class="film-rating">
+        <text class="rating">{{item.rating.average}}</text>
+      </view>
+    </view>
+</block>
+</view>
+</block>

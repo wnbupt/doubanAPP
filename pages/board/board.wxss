@@ -1,0 +1,19 @@
+.container
+{
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../../images/star.jpg");
+    background-position: center center;
+    background-size:100% 100%;  
+    background-repeat: no-repeat;
+}
+.sub-container
+{
+    padding: 20px 10px;
+    display: block;
+    border:1px solid #f0f0f0;
+    margin: 10px 0;
+    background-color: #6699CC;
+    opacity: 0.8;
+}
