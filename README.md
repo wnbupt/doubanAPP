@@ -24,9 +24,13 @@ https://api.douban.com/v2/movie/top250
 - app.json
 - app.wxss 
 
-####项目截图 
+####项目截图  
 
+<img src="https://github.com/wnbupt/doubanAPP/tree/master/images/index.png"/> 
 
+<img src="https://github.com/wnbupt/doubanAPP/tree/master/images/movieBoard.png"/>  
+
+<img src="https://github.com/wnbupt/doubanAPP/tree/master/images/detail.png"/> 
 
 ####开发环境 
 
