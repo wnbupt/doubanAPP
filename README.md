@@ -26,11 +26,11 @@ https://api.douban.com/v2/movie/top250
 
 ####项目截图  
 
-<img src="https://github.com/wnbupt/doubanAPP/tree/master/images/index.png"/> 
+<img src="https://github.com/wnbupt/doubanAPP/raw/master/images/index.png"/ width="320px"> 
 
-<img src="https://github.com/wnbupt/doubanAPP/tree/master/images/movieBoard.png"/>  
+<img src="https://github.com/wnbupt/doubanAPP/raw/master/images/movieBoard.png" width="320px"/>  
 
-<img src="https://github.com/wnbupt/doubanAPP/tree/master/images/detail.png"/> 
+<img src="https://github.com/wnbupt/doubanAPP/raw/master/images/detail.png" width="320px"/> 
 
 ####开发环境 
 
