@@ -24,7 +24,7 @@ https://api.douban.com/v2/movie/top250
 - app.json
 - app.wxss 
 
-####项目截图  
+#### 项目截图  
 
 <img src="https://github.com/wnbupt/doubanAPP/raw/master/images/index.png"/ width="320px"> 
 
@@ -32,11 +32,11 @@ https://api.douban.com/v2/movie/top250
 
 <img src="https://github.com/wnbupt/doubanAPP/raw/master/images/detail.png" width="320px"/> 
 
-####开发环境 
+#### 开发环境 
 
 微信web开发者工具 v0.11.112301 
 
-####项目地址 
+#### 项目地址 
 
 https://github.com/wnbupt/doubanAPP
 
